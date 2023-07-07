@@ -99,6 +99,11 @@ header {
 
 /* main section styles */
 
+main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
 /* About section styls */
 
 .about {
@@ -106,4 +111,22 @@ header {
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.info-title{
+  text-align: center;
+  color: #757575;
+}
+.info-description{
+  color: black;
+  font-weight: bold;
+}
+
+/* What I do section styles */
+
+#what-i-do-description{
+  padding: 30px 150px;
 }
